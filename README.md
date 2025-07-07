@@ -5,10 +5,16 @@
 This dataset basically contains information about bank details ,various client details which consists of multiple tables which are interlinked with each other through keys like primary key and foreign key.
 The various tables are Banking Relationship, Client-Banking, Gender, Investment Advisor and Period.
 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ![Overview](https://github.com/AniW-codes/risk_analysis_Banking/blob/main/1.jpg)
 
+
 ![ETL Process](https://github.com/AniW-codes/risk_analysis_Banking/blob/main/2.jpg)
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 **Data Cleaning** –
@@ -27,7 +33,11 @@ The various tables are Banking Relationship, Client-Banking, Gender, Investment 
 
 --------------------------------------------------------------------
 
+
 **KPI’s**: 
+
+![KPI - 1](https://github.com/AniW-codes/risk_analysis_Banking/blob/main/B1.png)
+
 
 In which followings KPIS are present :
 
@@ -61,6 +71,8 @@ In which followings KPIS are present :
 
 
 
+![KPI - Loan Analysis](https://github.com/AniW-codes/risk_analysis_Banking/blob/main/B2.png)
+
 
 5. Bank Loan : Bank Loan gives you information what is the loan amount of loan to be repaid by the **client to bank**.
 
@@ -86,6 +98,8 @@ In which followings KPIS are present :
 
 **Total CC Amount = SUM('Clients - Banking'[Amount of Credit Cards] )**
 
+![KPI - Deposit Analysis](https://github.com/AniW-codes/risk_analysis_Banking/blob/main/B3.png)
+
 
 9. Saving Account Amount : A savings account is an interest-bearing deposit account held at a bank.
 
@@ -98,3 +112,6 @@ In which followings KPIS are present :
 
 
 **Credit Cards Balance = SUM('Clients - Banking'[Credit Card Balance] )**
+
+![KPI - Summary](https://github.com/AniW-codes/risk_analysis_Banking/blob/main/B4.png)
+
